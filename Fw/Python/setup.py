@@ -80,10 +80,22 @@ to interact with the data coming from the FSW.
         "Markdown",
         "pexpect",
         "pytest",
+        "cookiecutter",
         'Cheetah3;python_version >= "3.0"',
         'Cheetah;python_version < "3.0"',
     ],
-    extras_require={"dev": ["black", "pylama", "pylint", "pre-commit"]},
+    extras_require={"dev": [
+        "black", 
+        "pylama", 
+        "pylint", 
+        "pre-commit",
+        "sphinx",
+        "sphinx-rtd-theme", 
+        "sphinx-autoapi", 
+        "sphinx-autoapi", 
+        "recommonmark",
+        "sphinxcontrib.mermaid"
+    ]},
     # Setup and test requirments, not needed by normal install
     setup_requires=["pytest-runner"],
     tests_require=["pytest"],
