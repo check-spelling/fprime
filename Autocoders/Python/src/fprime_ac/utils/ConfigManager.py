@@ -183,7 +183,7 @@ class ConfigManager(parent):
         #
         self.__prop["component"]["XMLDefaultFileName"] = "False"
         #
-        # Define default file suffex here...
+        # Define default file suffix here...
         #
         self.__prop["component"]["ComponentXML"] = "ComponentAi.xml"
         self.__prop["component"]["ComponentCpp"] = "ComponentAc.cpp"
@@ -213,7 +213,7 @@ class ConfigManager(parent):
         #
         self.__prop["port"]["XMLDefaultFileName"] = "False"
         #
-        # Define default file suffex here...
+        # Define default file suffix here...
         #
         self.__prop["port"]["PortXML"] = "PortAi.xml"
         self.__prop["port"]["PortCpp"] = "PortAc.cpp"
@@ -267,7 +267,7 @@ class ConfigManager(parent):
         #
         self.__prop["serialize"]["XMLDefaultFileName"] = "False"
         #
-        # Define default file suffex here...
+        # Define default file suffix here...
         #
         self.__prop["serialize"]["SerializableXML"] = "SerializableAi.xml"
         self.__prop["serialize"]["SerializableCpp"] = "SerializableAc.cpp"
