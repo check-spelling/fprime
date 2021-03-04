@@ -22,10 +22,10 @@ Continuous integration of the F´ core software. This performs safety checks on P
 &lt;em&gt;Note:&lt;/em&gt; Contact Michael.D.Starch@jpl.nasa.gov for comments and/or questions!</description>
   <keepDependencies>false</keepDependencies>
   <properties>
-    <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.29.3">
+    <com.coravy.hudson.plugins.github.GitHubProjectProperty plugin="github@1.29.3">
       <projectUrl>FILL-ME</projectUrl>
       <displayName></displayName>
-    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+    </com.coravy.hudson.plugins.github.GitHubProjectProperty>
     <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.8"/>
   </properties>
   <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.1">
